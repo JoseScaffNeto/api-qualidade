@@ -15,7 +15,7 @@ describe("CreateCardUseCase", () => {
           id: "user-1",
           name: "Alice",
           email: "alice@mail.com",
-          passwordHash: "hash",
+          passwordHash: "hash",//NOSONAR 
           createdAt: new Date()
         })
       ),
