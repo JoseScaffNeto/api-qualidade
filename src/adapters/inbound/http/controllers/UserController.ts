@@ -13,7 +13,7 @@ export class UserController {
     });
 
     const { passwordHash, ...safeUser } = user.toJSON();
-    void passwordHash;
+  
 
     response.status(HTTP_STATUS.CREATED).json(safeUser);
   }
