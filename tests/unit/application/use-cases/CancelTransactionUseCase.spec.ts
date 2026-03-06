@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from "vitest";
-import { CancelTransactionUseCase } from "../../../../src/application/use-cases/CancelTransactionUseCase";
+import{ CancelTransactionUseCase } from "../../../../src/application/use-cases/CancelTransactionUseCase";
 import type { TransactionRepository } from "../../../../src/application/ports/TransactionRepository";
 import type { CardRepository } from "../../../../src/application/ports/CardRepository";
 import { Transaction } from "../../../../src/domain/entities/Transaction";
